@@ -3,8 +3,11 @@ import Layout from './components/Layout/Layout';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/home';
 import Work from './pages/work';
-import Workitem from './pages/workitem';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+import WorkDetaild from './components/WorkDetails/WorkDetaild';
+import GeologicalHeritage from './pages/GeologicalHeritage';
+
 function App() {
   return (
     <>
@@ -13,9 +16,11 @@ function App() {
     
       <Routes>
          <Route path="/" element={<Home />}></Route> 
-         <Route path="/work" element={<Work />}>        
+         <Route path="/work" element={<Work />}>       
           </Route> 
-          <Route path="/work/:tit" element={<Workitem />} > </Route> 
+          <Route path="/work/:The Geological Heritage" element={  <GeologicalHeritage />}>
+        
+        </Route>       
       </Routes>
     
     </Layout>

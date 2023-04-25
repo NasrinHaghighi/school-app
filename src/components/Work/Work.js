@@ -1,21 +1,18 @@
 import React from 'react'
 import {WorkContainer, WorkItemStyle} from './style'
 import { Link } from "react-router-dom";
+import WorkItem from './WorkItem/WorkItem';
+import {arr} from '../../constant/MOCK_DATA'
 
 
-const arr=[
-    {id:1,tit:'eschool', name:'portugal', members:['Amir', 'Joa', 'Maria']},
-    {id:2,tit:'University', name:'portugal', members:['Amir', 'Joa', 'Maria']},
-
-]
 function Work() {
+ 
   return (
     <WorkContainer>
     {arr.map((item)=>{
-        return <WorkItemStyle>
-              <Link to={item.tit}>{item.tit}</Link>
-            </WorkItemStyle>
+        return <WorkItem key={item.id} item={item}/>
     })}
+
     </WorkContainer>
   )
 }
