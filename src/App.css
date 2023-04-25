@@ -5,3 +5,8 @@
   border-radius: 30px;
   border: 2px solid #76609f80;
 }
+.imgeDiv{
+  display: flex;
+justify-content: space-between;
+margin: 50px 100px;
+}
