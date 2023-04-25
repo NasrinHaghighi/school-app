@@ -7,7 +7,7 @@ import Work from './pages/work';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import WorkDetaild from './components/WorkDetails/WorkDetaild';
 import GeologicalHeritage from './pages/GeologicalHeritage';
-
+import ExplonationNewWord from './pages/ExplonationNewWord'
 function App() {
   return (
     <>
@@ -18,8 +18,8 @@ function App() {
          <Route path="/" element={<Home />}></Route> 
          <Route path="/work" element={<Work />}>       
           </Route> 
-          <Route path="/work/:The Geological Heritage" element={  <GeologicalHeritage />}>
-        
+          <Route path="/work/:The Geological Heritage" element={  <GeologicalHeritage />}></Route> 
+          <Route path="/work/:Exploration of new worlds" element={  <ExplonationNewWord />}>
         </Route>       
       </Routes>
     

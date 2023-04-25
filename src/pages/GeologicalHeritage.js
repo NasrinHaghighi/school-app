@@ -8,6 +8,7 @@ function GeologicalHeritage() {
   return (
     <div className='mainDiv'>
         <h1>Geological Heritage</h1>
+        <div>By : Dinis , Kauai, Diogo.M </div>
         <br/>
         <p>The geological heritage contains all the elements that constitute geodiversity. There are several types of rocks, fossils of very varied types and minerals.
   Part of the Earth's geological history is in the Geological Heritage.
@@ -48,7 +49,9 @@ Geology is one of the studies of the Earth and its evolution where it is studied
 </ul> 
         
       <div className='imgeDiv'>
-        <img src={Image1} width='400px' height='300px'/> <img src={Image2} width='400px' height='300px'/>
+        <img src={Image1} width='400px' height='300px'/> 
+        <br/>
+        <img src={Image2} width='400px' height='300px'/>
         </div>  
     </div>
   )
