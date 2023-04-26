@@ -16,6 +16,7 @@ function WorkItem({item}) {
           })}
           </Members>
            <ImageDiv>
+           
             <img src={item.image} style={{width:' 80px' , height: '90px'}}/>
           </ImageDiv> 
         </StyledLink>

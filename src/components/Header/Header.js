@@ -1,8 +1,8 @@
 import React from 'react'
 import {Container,Logo, List, StyledLink} from './styles'
 import {useLocation} from 'react-router-dom';
-
-
+import School from '../../images/Logo_AEM.jpg'
+import School2 from '../../images/Logo_PEBI.png'
 
 function Header() {
     const location = useLocation();
@@ -10,7 +10,7 @@ function Header() {
   return (
     <Container>
    
-  <Logo>LOGO</Logo>
+  <Logo><img src={School}/></Logo>
 
   <List>
     
@@ -22,7 +22,7 @@ function Header() {
   </List> 
 
 
-<Logo>LOGO</Logo>
+<Logo><img src={School2} width='150px' height='80px'/></Logo>
  </Container>
   )
 }

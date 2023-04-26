@@ -7,6 +7,8 @@ padding: 50px;
 margin-bottom:30px;
 font-size:25px;
 border-radius: 30px;
+width: 40%;
+text-align: center;
 
 `
 export const StyledLink=styled(Link)`
